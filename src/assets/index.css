@@ -1,0 +1,28 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body , #root{
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+body{
+    padding: 1em;
+}
+#root{
+    width: 100%;
+}
+.tours-info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center ;
+}
